@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mob-nav button {
+  width: 53px;
+  padding: 4px;
+  margin: 3px 1.1px;
+  position: relative;
+  top: 2px;
+}
+
+
+
+.nav {
+  padding: 1% 2%;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 0px 1px white;
+  position: relative;
+  justify-content: space-between;
+  background-color: #060606;
+  height: 44px;
+}
+
+.cont_title {
+  display: flex;
+  box-shadow: 0px 27px 0px 0px black;
+  justify-content: space-between;
+  height: 2.2rem;
+  font-style: 20px;
+  padding: 0px 11px;
+  align-items: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #1D1E22;
+}
+
+.upperpath {
+  display: flex;
+  background-color: #060606;
+  height: 100%;
+
+}
+
+.footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.ItemTitle_iconEdit-rW2EJ {
+  width: 20px;
+  height: 15px;
+  color: white;
+  fill: currentColor;
+}
+
+.combine {
+  position: relative;
+  top: 16px;
+}
+
+.nav_div {
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  color: yellow;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.contain {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0.3rem 0.1rem;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow: hidden;
+
+
+
+}
+
+.contain {
+  transition: 0.5s;
+}
+
+.contain .collapse .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden;
+  transition: 0.5s;
+
+
+}
+
+.collapse {
+  margin-top: 0.3rem;
+  padding: 0 2px;
+  transition: 0.5s;
+}
+
+.close_but {
+  margin-left: 0.5rem;
+  
+  border: 0PX solid;
+  padding: 2px 6PX;
+  transition: 0.5s;
+  WIDTH: 22PX;
+  cursor: pointer;
+  HEIGHT: 20PX;
+  BORDER-RADIUS: 6PX;
+
+}
+
+.CodeMirror {
+  overflow-y: hidden;
+  overflow-x: auto;
+  height: auto;
+}
+
+.CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.main {
+  width: 100%;
+  height: 100%
+}
+
+.mob-nav {
+  display: none;
+
+  padding: 3px;
+  background: #060606;
+}
+
+.logo_size {
+  font-size: 1.8rem;
+}
+
+@media (max-width:620px) {
+
+  .mob-nav {
+    display: block;
+
+  }
+
+  .upperpath {
+    display: none;
+  }
+
+  .contain {
+    box-shadow: 0px -8px 0px 12px black;
+
+  }
+
+  iframe {
+    height: 335px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .logo_size {
+    font-size: 1.4rem;
+  }
+
+  .nav_div {
+    font-size: 0.8rem;
+  }
+.close_but{
+  font-size:9px;
+}
+}
